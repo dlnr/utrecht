@@ -1,0 +1,2 @@
+import{r,h as t,H as e}from"./p-5223448a.js";const o=":host{--_utrecht-table-header-cell-z-index:5;z-index:3;display:table-footer-group}";const s=class{constructor(t){r(this,t)}render(){return t(e,{role:"rowgroup"},t("slot",null))}};s.style=o;export{s as utrecht_table_footer};
+//# sourceMappingURL=p-c4d64544.entry.js.map
