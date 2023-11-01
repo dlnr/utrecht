@@ -5,11 +5,11 @@
  */
 /**
  * Do not edit directly
- * Generated on Wed, 01 Nov 2023 05:29:12 GMT
+ * Generated on Wed, 01 Nov 2023 08:19:37 GMT
  */
 /**
  * Do not edit directly
- * Generated on Wed, 01 Nov 2023 05:29:15 GMT
+ * Generated on Wed, 01 Nov 2023 08:19:39 GMT
  */
 /**
  * @license SEE LICENSE.md
@@ -9523,13 +9523,7 @@ however browsers don't seem to have implemented great looking supixel tweening y
 /* stylelint-disable order/properties-alphabetical-order */
 /* stylelint-disable-next-line block-no-empty */
 .utrecht-select {
-  -webkit-appearance: none;
-  appearance: none;
   background-color: var(--utrecht-select-background-color, var(--utrecht-form-control-background-color));
-  background-image: var(--utrecht-select-background-image);
-  background-position: 100%;
-  background-repeat: no-repeat;
-  background-size: 1.4em;
   border-block-end-width: var(--utrecht-select-border-block-end-width, var(--utrecht-select-border-width, var(--utrecht-form-control-border-width)));
   border-block-start-width: var(--utrecht-select-border-width, var(--utrecht-form-control-border-width));
   border-color: var(--utrecht-select-border-color, var(--utrecht-form-control-border-color));
@@ -9623,6 +9617,15 @@ however browsers don't seem to have implemented great looking supixel tweening y
   border-color: var(--utrecht-select-disabled-border-color, var(--utrecht-form-control-disabled-border-color, var(--utrecht-select-border-color, var(--utrecht-form-control-border-color))));
   color: var(--utrecht-select-disabled-color, var(--utrecht-form-control-disabled-color, var(--utrecht-select-color, var(--utrecht-form-control-color))));
   cursor: var(--utrecht-action-disabled-cursor, not-allowed);
+}
+
+.utrecht-select--html-select:not([multiple]) {
+  -webkit-appearance: none;
+  appearance: none;
+  background-image: var(--utrecht-select-background-image);
+  background-position: 100%;
+  background-repeat: no-repeat;
+  background-size: 1.4em;
 }
 
 /**
