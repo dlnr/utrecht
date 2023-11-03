@@ -5,11 +5,11 @@
  */
 /**
  * Do not edit directly
- * Generated on Fri, 03 Nov 2023 14:29:41 GMT
+ * Generated on Fri, 03 Nov 2023 15:31:52 GMT
  */
 /**
  * Do not edit directly
- * Generated on Fri, 03 Nov 2023 14:29:45 GMT
+ * Generated on Fri, 03 Nov 2023 15:31:54 GMT
  */
 /**
  * @license SEE LICENSE.md
@@ -9837,6 +9837,19 @@ however browsers don't seem to have implemented great looking supixel tweening y
 
 .utrecht-table--html-table > caption,
 .utrecht-table__caption {
+  break-inside: avoid;
+  color: var(--utrecht-table-caption-color);
+  font-family: var(--utrecht-table-caption-font-family);
+  font-size: var(--utrecht-table-caption-font-size);
+  font-weight: var(--utrecht-table-caption-font-weight);
+  line-height: var(--utrecht-table-caption-line-height);
+  margin-block-end: var(--utrecht-table-caption-margin-block-end);
+  page-break-after: avoid;
+  text-align: var(--utrecht-table-caption-text-align, center);
+}
+
+.utrecht-table--html-table > figcaption,
+.utrecht-table__figcaption {
   break-inside: avoid;
   color: var(--utrecht-table-caption-color);
   font-family: var(--utrecht-table-caption-font-family);
