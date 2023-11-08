@@ -5,11 +5,11 @@
  */
 /**
  * Do not edit directly
- * Generated on Mon, 06 Nov 2023 12:13:40 GMT
+ * Generated on Wed, 08 Nov 2023 17:53:38 GMT
  */
 /**
  * Do not edit directly
- * Generated on Mon, 06 Nov 2023 12:13:42 GMT
+ * Generated on Wed, 08 Nov 2023 17:53:40 GMT
  */
 /**
  * @license SEE LICENSE.md
@@ -5014,6 +5014,7 @@ so do not apply these styles to an HTML `<dialog>` element without `open` attrib
   padding-block-start: var(--utrecht-button-padding-block-start);
   padding-inline-end: var(--utrecht-button-padding-inline-end);
   padding-inline-start: var(--utrecht-button-padding-inline-start);
+  scale: 1;
   text-transform: var(--utrecht-button-text-transform);
   -webkit-user-select: none;
   user-select: none;
@@ -5986,6 +5987,7 @@ so do not apply these styles to an HTML `<dialog>` element without `open` attrib
   padding-block-start: var(--utrecht-button-padding-block-start);
   padding-inline-end: var(--utrecht-button-padding-inline-end);
   padding-inline-start: var(--utrecht-button-padding-inline-start);
+  scale: 1;
   text-transform: var(--utrecht-button-text-transform);
   -webkit-user-select: none;
   user-select: none;
