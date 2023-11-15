@@ -5,11 +5,11 @@
  */
 /**
  * Do not edit directly
- * Generated on Wed, 15 Nov 2023 15:15:17 GMT
+ * Generated on Wed, 15 Nov 2023 16:02:31 GMT
  */
 /**
  * Do not edit directly
- * Generated on Wed, 15 Nov 2023 15:15:22 GMT
+ * Generated on Wed, 15 Nov 2023 16:02:33 GMT
  */
 /**
  * @license SEE LICENSE.md
@@ -6526,6 +6526,8 @@ so do not apply these styles to an HTML `<dialog>` element without `open` attrib
   grid-auto-columns: 1fr;
   grid-template-columns: repeat(auto-fit, var(--_utrecht-auto-col));
   margin-block-start: var(--utrecht-data-list-rows-item-margin-block-start);
+  padding-block-end: var(--utrecht-data-list-rows-item-padding-block-end);
+  padding-block-start: var(--utrecht-data-list-rows-item-padding-block-start);
   row-gap: 0;
 }
 .utrecht-data-list--rows .utrecht-data-list__item:first-of-type {
