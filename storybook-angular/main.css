@@ -5,11 +5,11 @@
  */
 /**
  * Do not edit directly
- * Generated on Mon, 11 Dec 2023 21:01:21 GMT
+ * Generated on Tue, 12 Dec 2023 19:45:30 GMT
  */
 /**
  * Do not edit directly
- * Generated on Mon, 11 Dec 2023 21:01:23 GMT
+ * Generated on Tue, 12 Dec 2023 19:45:32 GMT
  */
 /**
  * @license SEE LICENSE.md
@@ -583,6 +583,13 @@
   --utrecht-sidenav-item-margin-inline-start: var(--utrecht-space-inline-3xs);
   --utrecht-sidenav-item-margin-block-end: var(--utrecht-space-block-xs);
   --utrecht-sidenav-item-margin-block-start: var(--utrecht-space-block-xs);
+  --utrecht-nav-bar-link-padding-inline-start: var(--utrecht-space-inline-md);
+  --utrecht-nav-bar-link-padding-inline-end: var(--utrecht-space-inline-md);
+  --utrecht-nav-bar-link-padding-block-start: var(--utrecht-space-block-xs);
+  --utrecht-nav-bar-link-padding-block-end: var(--utrecht-space-block-xs);
+  --utrecht-nav-bar-content-max-inline-size: var(--utrecht-page-max-inline-size);
+  --utrecht-nav-bar-color: var(--utrecht-color-black);
+  --utrecht-nav-bar-background-color: var(--utrecht-color-white);
   --utrecht-mark-color: var(--utrecht-color-black);
   --utrecht-mark-background-color: var(--utrecht-color-yellow-60);
   --utrecht-mapcontrolbutton-hover-color: var(--utrecht-color-white);
@@ -1555,6 +1562,13 @@
     --utrecht-sidenav-item-margin-inline-start: var(--utrecht-space-inline-3xs);
     --utrecht-sidenav-item-margin-block-end: var(--utrecht-space-block-xs);
     --utrecht-sidenav-item-margin-block-start: var(--utrecht-space-block-xs);
+    --utrecht-nav-bar-link-padding-inline-start: var(--utrecht-space-inline-md);
+    --utrecht-nav-bar-link-padding-inline-end: var(--utrecht-space-inline-md);
+    --utrecht-nav-bar-link-padding-block-start: var(--utrecht-space-block-xs);
+    --utrecht-nav-bar-link-padding-block-end: var(--utrecht-space-block-xs);
+    --utrecht-nav-bar-content-max-inline-size: var(--utrecht-page-max-inline-size);
+    --utrecht-nav-bar-color: var(--utrecht-color-black);
+    --utrecht-nav-bar-background-color: var(--utrecht-color-white);
     --utrecht-mark-color: var(--utrecht-color-black);
     --utrecht-mark-background-color: var(--utrecht-color-yellow-60);
     --utrecht-mapcontrolbutton-hover-color: var(--utrecht-color-white);
