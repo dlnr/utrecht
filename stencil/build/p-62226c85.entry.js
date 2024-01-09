@@ -1,2 +1,0 @@
-import{r,h as o,H as s}from"./p-5223448a.js";const t=":host{break-inside:avoid;page-break-inside:avoid;display:table-row}";const a=class{constructor(o){r(this,o)}render(){return o(s,{role:"row"},o("slot",null))}};a.style=t;export{a as utrecht_table_row};
-//# sourceMappingURL=p-62226c85.entry.js.map
