@@ -5,11 +5,11 @@
  */
 /**
  * Do not edit directly
- * Generated on Thu, 18 Jan 2024 10:38:06 GMT
+ * Generated on Fri, 19 Jan 2024 11:15:03 GMT
  */
 /**
  * Do not edit directly
- * Generated on Thu, 18 Jan 2024 10:38:08 GMT
+ * Generated on Fri, 19 Jan 2024 11:15:05 GMT
  */
 /**
  * @license SEE LICENSE.md
@@ -4364,6 +4364,7 @@ so do not apply these styles to an HTML `<dialog>` element without `open` attrib
   background-size: contain;
   block-size: var(--utrecht-checkbox-size, 1em);
   border-color: var(--utrecht-checkbox-border-color);
+  border-radius: var(--utrecht-checkbox-border-radius, 0);
   border-style: solid;
   border-width: var(--utrecht-checkbox-border-width);
   cursor: var(--utrecht-action-activate-cursor, revert);
