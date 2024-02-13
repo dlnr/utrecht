@@ -5,11 +5,11 @@
  */
 /**
  * Do not edit directly
- * Generated on Fri, 09 Feb 2024 10:14:16 GMT
+ * Generated on Tue, 13 Feb 2024 18:17:45 GMT
  */
 /**
  * Do not edit directly
- * Generated on Fri, 09 Feb 2024 10:14:15 GMT
+ * Generated on Tue, 13 Feb 2024 18:17:45 GMT
  */
 /**
  * @license SEE LICENSE.md
@@ -259,6 +259,7 @@
   --utrecht-form-fieldset-legend-line-height: 1.4;
   --utrecht-form-fieldset-legend-font-size: 1rem;
   --utrecht-form-field-invalid-border-inline-start-width: 3px;
+  --utrecht-form-control-read-only-border-color: transparent;
   --utrecht-form-control-block-size: 42px;
   --utrecht-form-control-padding-inline-start: 12px;
   --utrecht-form-control-padding-inline-end: 12px;
@@ -680,6 +681,8 @@
   --utrecht-form-field-invalid-padding-inline-start: var(--utrecht-space-block-sm);
   --utrecht-form-field-margin-block-end: var(--utrecht-space-block-2xs);
   --utrecht-form-field-margin-block-start: var(--utrecht-space-block-2xs);
+  --utrecht-form-control-read-only-color: var(--utrecht-color-grey-20);
+  --utrecht-form-control-read-only-background-color: var(--utrecht-color-grey-90);
   --utrecht-form-control-focus-border-color: var(--utrecht-color-grey-80);
   --utrecht-form-control-placeholder-font-style: var(--utrecht-typography-font-style-normal);
   --utrecht-form-control-placeholder-color: var(--utrecht-color-grey-40);
@@ -1235,6 +1238,7 @@
     --utrecht-form-fieldset-legend-line-height: 1.4;
     --utrecht-form-fieldset-legend-font-size: 1rem;
     --utrecht-form-field-invalid-border-inline-start-width: 3px;
+    --utrecht-form-control-read-only-border-color: transparent;
     --utrecht-form-control-block-size: 42px;
     --utrecht-form-control-padding-inline-start: 12px;
     --utrecht-form-control-padding-inline-end: 12px;
@@ -1659,6 +1663,8 @@
     --utrecht-form-field-invalid-padding-inline-start: var(--utrecht-space-block-sm);
     --utrecht-form-field-margin-block-end: var(--utrecht-space-block-2xs);
     --utrecht-form-field-margin-block-start: var(--utrecht-space-block-2xs);
+    --utrecht-form-control-read-only-color: var(--utrecht-color-grey-20);
+    --utrecht-form-control-read-only-background-color: var(--utrecht-color-grey-30);
     --utrecht-form-control-focus-border-color: var(--utrecht-color-grey-80);
     --utrecht-form-control-placeholder-font-style: var(--utrecht-typography-font-style-normal);
     --utrecht-form-control-placeholder-color: var(--utrecht-color-grey-80);
