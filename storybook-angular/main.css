@@ -5,11 +5,11 @@
  */
 /**
  * Do not edit directly
- * Generated on Thu, 22 Feb 2024 16:35:06 GMT
+ * Generated on Sun, 25 Feb 2024 18:21:26 GMT
  */
 /**
  * Do not edit directly
- * Generated on Thu, 22 Feb 2024 16:35:05 GMT
+ * Generated on Sun, 25 Feb 2024 18:21:25 GMT
  */
 /**
  * @license SEE LICENSE.md
@@ -2038,6 +2038,7 @@
   --utrecht-button-focus-scale: 1;
   --utrecht-button-hover-scale: 1;
   --utrecht-button-inline-size: 100%;
+  --utrecht-button-min-inline-size: 100%;
   --utrecht-button-subtle-background-color: var(--utrecht-accordion-button-background-color);
   --utrecht-button-subtle-padding-inline-start: var(--utrecht-accordion-button-padding-inline-start);
   --utrecht-button-subtle-padding-inline-end: var(--utrecht-accordion-button-padding-inline-end);
