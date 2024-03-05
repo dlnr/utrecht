@@ -5,11 +5,11 @@
  */
 /**
  * Do not edit directly
- * Generated on Mon, 04 Mar 2024 08:32:49 GMT
+ * Generated on Tue, 05 Mar 2024 06:11:14 GMT
  */
 /**
  * Do not edit directly
- * Generated on Mon, 04 Mar 2024 08:32:48 GMT
+ * Generated on Tue, 05 Mar 2024 06:11:13 GMT
  */
 /**
  * @license SEE LICENSE.md
@@ -214,6 +214,9 @@
   --utrecht-logo-min-block-size: 58.97px;
   --utrecht-logo-max-inline-size: 192px;
   --utrecht-logo-max-block-size: 103px;
+  --utrecht-listbox-option-min-block-size: 44px;
+  --utrecht-listbox-max-block-size: 300px;
+  --utrecht-listbox-inline-size: 448px;
   --utrecht-list-social-item-margin-inline-end: 10px;
   --utrecht-link-icon-size: 1.2em;
   --utrecht-link-hover-text-decoration-thickness: 3px;
@@ -617,6 +620,23 @@
   --utrecht-map-marker-border-color: var(--utrecht-color-white);
   --utrecht-map-marker-color: var(--utrecht-color-white);
   --utrecht-map-marker-background-color: var(--utrecht-color-blue-30);
+  --utrecht-listbox-option-group-title-margin-inline-start: var(--utrecht-space-inline-xs);
+  --utrecht-listbox-option-group-title-color: var(--utrecht-color-black);
+  --utrecht-listbox-option-group-title-font-weight: var(--utrecht-typography-weight-scale-bold-font-weight);
+  --utrecht-listbox-option-group-title-font-size: var(--utrecht-typography-scale-md-font-size);
+  --utrecht-listbox-option-group-margin-block-end: var(--utrecht-space-inline-xs);
+  --utrecht-listbox-option-hover-background-color: var(--utrecht-color-blue-90);
+  --utrecht-listbox-option-hover-color: var(--utrecht-color-black);
+  --utrecht-listbox-option-selected-color: var(--utrecht-color-black);
+  --utrecht-listbox-option-selected-background-color: var(--utrecht-color-grey-95);
+  --utrecht-listbox-option-active-font-weight: var(--utrecht-typography-weight-scale-bold-font-weight);
+  --utrecht-listbox-option-active-color: var(--utrecht-color-black);
+  --utrecht-listbox-option-active-background-color: var(--utrecht-color-grey-95);
+  --utrecht-listbox-option-padding-inline-start: var(--utrecht-space-inline-xs);
+  --utrecht-listbox-option-padding-inline-end: var(--utrecht-space-inline-xs);
+  --utrecht-listbox-option-padding-block-start: var(--utrecht-space-block-xs);
+  --utrecht-listbox-option-padding-block-end: var(--utrecht-space-block-xs);
+  --utrecht-listbox-background-color: var(--utrecht-color-white);
   --utrecht-link-placeholder-color: var(--utrecht-color-grey-40);
   --utrecht-link-focus-color: var(--utrecht-color-blue-40);
   --utrecht-link-color: var(--utrecht-color-blue-35);
@@ -935,6 +955,8 @@
   --utrecht-radio-button-border-color: var(--utrecht-form-control-border-color);
   --utrecht-radio-button-background-color: var(--utrecht-form-control-background-color);
   --utrecht-paragraph-lead-color: var(--utrecht-document-color);
+  --utrecht-listbox-border-width: var(--utrecht-form-control-border-width);
+  --utrecht-listbox-border-color: var(--utrecht-form-control-border-color);
   --utrecht-link-visited-color: var(--utrecht-link-color);
   --utrecht-link-hover-color: var(--utrecht-link-focus-color);
   --utrecht-link-active-color: var(--utrecht-link-color);
@@ -1192,6 +1214,9 @@
     --utrecht-logo-min-block-size: 58.97px;
     --utrecht-logo-max-inline-size: 192px;
     --utrecht-logo-max-block-size: 103px;
+    --utrecht-listbox-option-min-block-size: 44px;
+    --utrecht-listbox-max-block-size: 300px;
+    --utrecht-listbox-inline-size: 448px;
     --utrecht-list-social-item-margin-inline-end: 10px;
     --utrecht-link-icon-size: 1.2em;
     --utrecht-link-hover-text-decoration-thickness: 3px;
@@ -1600,6 +1625,23 @@
     --utrecht-map-marker-border-color: var(--utrecht-color-white);
     --utrecht-map-marker-color: var(--utrecht-color-white);
     --utrecht-map-marker-background-color: var(--utrecht-color-blue-30);
+    --utrecht-listbox-option-group-title-margin-inline-start: var(--utrecht-space-inline-xs);
+    --utrecht-listbox-option-group-title-color: var(--utrecht-color-black);
+    --utrecht-listbox-option-group-title-font-weight: var(--utrecht-typography-weight-scale-bold-font-weight);
+    --utrecht-listbox-option-group-title-font-size: var(--utrecht-typography-scale-md-font-size);
+    --utrecht-listbox-option-group-margin-block-end: var(--utrecht-space-inline-xs);
+    --utrecht-listbox-option-hover-background-color: var(--utrecht-color-blue-90);
+    --utrecht-listbox-option-hover-color: var(--utrecht-color-black);
+    --utrecht-listbox-option-selected-color: var(--utrecht-color-black);
+    --utrecht-listbox-option-selected-background-color: var(--utrecht-color-grey-95);
+    --utrecht-listbox-option-active-font-weight: var(--utrecht-typography-weight-scale-bold-font-weight);
+    --utrecht-listbox-option-active-color: var(--utrecht-color-black);
+    --utrecht-listbox-option-active-background-color: var(--utrecht-color-grey-95);
+    --utrecht-listbox-option-padding-inline-start: var(--utrecht-space-inline-xs);
+    --utrecht-listbox-option-padding-inline-end: var(--utrecht-space-inline-xs);
+    --utrecht-listbox-option-padding-block-start: var(--utrecht-space-block-xs);
+    --utrecht-listbox-option-padding-block-end: var(--utrecht-space-block-xs);
+    --utrecht-listbox-background-color: var(--utrecht-color-white);
     --utrecht-link-placeholder-color: var(--utrecht-color-grey-80);
     --utrecht-link-focus-color: var(--utrecht-color-blue-80);
     --utrecht-link-color: var(--utrecht-color-blue-60);
@@ -1914,6 +1956,8 @@
     --utrecht-radio-button-border-color: var(--utrecht-form-control-border-color);
     --utrecht-radio-button-background-color: var(--utrecht-form-control-background-color);
     --utrecht-paragraph-lead-color: var(--utrecht-document-color);
+    --utrecht-listbox-border-width: var(--utrecht-form-control-border-width);
+    --utrecht-listbox-border-color: var(--utrecht-form-control-border-color);
     --utrecht-link-visited-color: var(--utrecht-link-color);
     --utrecht-link-hover-color: var(--utrecht-link-focus-color);
     --utrecht-link-active-color: var(--utrecht-link-color);
@@ -8230,7 +8274,8 @@ however browsers don't seem to have implemented great looking supixel tweening y
   inline-size: 100%;
   line-height: var(--utrecht-textarea-line-height, initial);
   max-inline-size: var(--utrecht-textarea-max-inline-size, var(--utrecht-form-control-max-inline-size));
-  min-block-size: var(--utrecht-textarea-min-block-size);
+  min-block-size: var(--utrecht-textarea-min-block-size, var(--utrecht-pointer-target-min-size, 44px));
+  min-inline-size: var(--utrecht-pointer-target-min-size, 44px);
   padding-block-end: var(--utrecht-textarea-padding-block-end, var(--utrecht-form-control-padding-block-end, 0));
   padding-block-start: var(--utrecht-textarea-padding-block-start, var(--utrecht-form-control-padding-block-start, 0));
   padding-inline-end: var(--utrecht-textarea-padding-inline-end, var(--utrecht-form-control-padding-inline-end, initial));
@@ -8391,6 +8436,8 @@ however browsers don't seem to have implemented great looking supixel tweening y
   font-weight: initial; /* harden */
   inline-size: 100%;
   line-height: var(--utrecht-textbox-line-height, var(--utrecht-form-control-line-height, initial));
+  min-block-size: var(--utrecht-pointer-target-min-size, 44px);
+  min-inline-size: var(--utrecht-pointer-target-min-size, 44px);
   max-inline-size: var(--utrecht-textbox-max-inline-size, var(--utrecht-form-control-max-inline-size));
   padding-block-end: var(--utrecht-textbox-padding-block-end, var(--utrecht-form-control-padding-block-end, 0));
   padding-block-start: var(--utrecht-textbox-padding-block-start, var(--utrecht-form-control-padding-block-start, 0));
