@@ -5,11 +5,11 @@
  */
 /**
  * Do not edit directly
- * Generated on Fri, 22 Mar 2024 10:37:48 GMT
+ * Generated on Fri, 22 Mar 2024 10:39:13 GMT
  */
 /**
  * Do not edit directly
- * Generated on Fri, 22 Mar 2024 10:37:47 GMT
+ * Generated on Fri, 22 Mar 2024 10:39:13 GMT
  */
 /**
  * @license SEE LICENSE.md
@@ -539,7 +539,7 @@
   --utrecht-paragraph-small-font-size: var(--utrecht-typography-scale-sm-font-size);
   --utrecht-paragraph-lead-line-height: var(--utrecht-typography-line-height-md);
   --utrecht-paragraph-lead-font-weight: var(--utrecht-typography-weight-scale-normal-font-weight);
-  --utrecht-paragraph-lead-font-size: var(--utrecht-typography-scale-lg-font-size);
+  --utrecht-paragraph-lead-font-size: var(--utrecht-typography-scale-xl-font-size);
   --utrecht-paragraph-margin-block-start: var(--utrecht-space-block-md);
   --utrecht-paragraph-line-height: var(--utrecht-typography-line-height-md);
   --utrecht-paragraph-font-weight: var(--utrecht-typography-weight-scale-normal-font-weight);
@@ -1544,7 +1544,7 @@
     --utrecht-paragraph-small-font-size: var(--utrecht-typography-scale-sm-font-size);
     --utrecht-paragraph-lead-line-height: var(--utrecht-typography-line-height-md);
     --utrecht-paragraph-lead-font-weight: var(--utrecht-typography-weight-scale-normal-font-weight);
-    --utrecht-paragraph-lead-font-size: var(--utrecht-typography-scale-lg-font-size);
+    --utrecht-paragraph-lead-font-size: var(--utrecht-typography-scale-xl-font-size);
     --utrecht-paragraph-margin-block-start: var(--utrecht-space-block-md);
     --utrecht-paragraph-line-height: var(--utrecht-typography-line-height-md);
     --utrecht-paragraph-font-weight: var(--utrecht-typography-weight-scale-normal-font-weight);
