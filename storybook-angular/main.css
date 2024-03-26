@@ -5,11 +5,11 @@
  */
 /**
  * Do not edit directly
- * Generated on Sun, 24 Mar 2024 17:27:28 GMT
+ * Generated on Tue, 26 Mar 2024 15:07:06 GMT
  */
 /**
  * Do not edit directly
- * Generated on Sun, 24 Mar 2024 17:27:27 GMT
+ * Generated on Tue, 26 Mar 2024 15:07:05 GMT
  */
 /**
  * @license SEE LICENSE.md
@@ -8004,6 +8004,15 @@ however browsers don't seem to have implemented great looking supixel tweening y
  */
 /* stylelint-disable-next-line block-no-empty */
 /* stylelint-disable-next-line block-no-empty */
+.utrecht-table-container--overflow-inline {
+  background-attachment: local, local, scroll, scroll;
+  background-image: linear-gradient(to right, white, white), linear-gradient(to right, white, white), linear-gradient(to right, rgba(0, 0, 0, 0.25), rgba(255, 255, 255, 0)), linear-gradient(to left, rgba(0, 0, 0, 0.25), rgba(255, 255, 255, 0));
+  background-position: left center, right center, left center, right center;
+  background-repeat: no-repeat;
+  background-size: 20px 100%, 20px 100%, 10px 100%, 10px 100%;
+  overflow: auto;
+}
+
 .utrecht-table {
   /* `border-collapse: collapse` results in a broken border for sticky header and sticky footer.
    * Therefore we need to use `border-collapse: separate` instead.
