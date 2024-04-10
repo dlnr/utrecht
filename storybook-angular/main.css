@@ -5,11 +5,11 @@
  */
 /**
  * Do not edit directly
- * Generated on Tue, 26 Mar 2024 15:18:59 GMT
+ * Generated on Wed, 10 Apr 2024 08:07:08 GMT
  */
 /**
  * Do not edit directly
- * Generated on Tue, 26 Mar 2024 15:18:58 GMT
+ * Generated on Wed, 10 Apr 2024 08:07:07 GMT
  */
 /**
  * @license SEE LICENSE.md
@@ -938,6 +938,8 @@
   --utrecht-accordion-button-padding-block-end: var(--utrecht-space-block-xs);
   --utrecht-accordion-button-padding-inline-start: var(--utrecht-space-block-md);
   --utrecht-accordion-button-padding-inline-end: var(--utrecht-space-block-md);
+  --of-page-footer-fg: var(--utrecht-page-footer-color);
+  --of-page-footer-bg: var(--utrecht-page-footer-background-color);
   --of-layout-background: var(--utrecht-document-background-color);
   --denhaag-process-steps-sub-step-line-color: var(--denhaag-process-steps-step-line-color);
   --utrecht-toptask-link-hover-color: var(--utrecht-button-primary-action-hover-color);
@@ -1939,6 +1941,8 @@
     --utrecht-accordion-button-padding-block-end: var(--utrecht-space-block-xs);
     --utrecht-accordion-button-padding-inline-start: var(--utrecht-space-block-md);
     --utrecht-accordion-button-padding-inline-end: var(--utrecht-space-block-md);
+    --of-page-footer-fg: var(--utrecht-page-footer-color);
+    --of-page-footer-bg: var(--utrecht-page-footer-background-color);
     --of-layout-background: var(--utrecht-document-background-color);
     --denhaag-process-steps-sub-step-line-color: var(--denhaag-process-steps-step-line-color);
     --utrecht-toptask-link-hover-color: var(--utrecht-button-primary-action-hover-color);
