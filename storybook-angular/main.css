@@ -5,11 +5,11 @@
  */
 /**
  * Do not edit directly
- * Generated on Wed, 10 Apr 2024 08:18:32 GMT
+ * Generated on Tue, 30 Apr 2024 09:41:25 GMT
  */
 /**
  * Do not edit directly
- * Generated on Wed, 10 Apr 2024 08:18:31 GMT
+ * Generated on Tue, 30 Apr 2024 09:41:24 GMT
  */
 /**
  * @license SEE LICENSE.md
@@ -2106,6 +2106,7 @@
   --utrecht-button-subtle-border-width: var(--utrecht-accordion-button-border-width);
   justify-content: start !important;
   position: relative;
+  text-align: start;
 }
 .utrecht-accordion__button[aria-expanded]::after {
   background-color: var(--utrecht-accordion-button-icon-background-color);
