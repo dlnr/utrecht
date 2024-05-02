@@ -5,11 +5,11 @@
  */
 /**
  * Do not edit directly
- * Generated on Tue, 30 Apr 2024 12:31:21 GMT
+ * Generated on Thu, 02 May 2024 08:48:55 GMT
  */
 /**
  * Do not edit directly
- * Generated on Tue, 30 Apr 2024 12:31:20 GMT
+ * Generated on Thu, 02 May 2024 08:48:54 GMT
  */
 /**
  * @license SEE LICENSE.md
@@ -33,6 +33,7 @@
 }
 .utrecht-theme,
 .utrecht-theme ::backdrop {
+  --of-progress-indicator-mobile-box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.2);
   --denhaag-process-steps-sub-step-marker-size: 12px;
   --denhaag-process-steps-step-marker-size: 28px;
   --utrecht-toptask-nav-link-grid-max-inline-size: 240px;
@@ -938,6 +939,7 @@
   --utrecht-accordion-button-padding-block-end: var(--utrecht-space-block-xs);
   --utrecht-accordion-button-padding-inline-start: var(--utrecht-space-block-md);
   --utrecht-accordion-button-padding-inline-end: var(--utrecht-space-block-md);
+  --of-progress-indicator-background-color: var(--utrecht-document-background-color);
   --of-page-footer-fg: var(--utrecht-page-footer-color);
   --of-page-footer-bg: var(--utrecht-page-footer-background-color);
   --of-layout-background: var(--utrecht-document-background-color);
@@ -1035,6 +1037,7 @@
   .utrecht-theme--media-query ::backdrop,
   .utrecht-theme--media-query-color-scheme,
   .utrecht-theme--media-query-color-scheme ::backdrop {
+    --of-progress-indicator-mobile-box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.2);
     --denhaag-process-steps-sub-step-marker-size: 12px;
     --denhaag-process-steps-step-marker-size: 28px;
     --utrecht-toptask-nav-link-grid-max-inline-size: 240px;
@@ -1941,6 +1944,7 @@
     --utrecht-accordion-button-padding-block-end: var(--utrecht-space-block-xs);
     --utrecht-accordion-button-padding-inline-start: var(--utrecht-space-block-md);
     --utrecht-accordion-button-padding-inline-end: var(--utrecht-space-block-md);
+    --of-progress-indicator-background-color: var(--utrecht-document-background-color);
     --of-page-footer-fg: var(--utrecht-page-footer-color);
     --of-page-footer-bg: var(--utrecht-page-footer-background-color);
     --of-layout-background: var(--utrecht-document-background-color);
