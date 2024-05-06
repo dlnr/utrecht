@@ -5,11 +5,11 @@
  */
 /**
  * Do not edit directly
- * Generated on Thu, 02 May 2024 09:00:18 GMT
+ * Generated on Mon, 06 May 2024 08:45:35 GMT
  */
 /**
  * Do not edit directly
- * Generated on Thu, 02 May 2024 09:00:17 GMT
+ * Generated on Mon, 06 May 2024 08:45:33 GMT
  */
 /**
  * @license SEE LICENSE.md
@@ -114,7 +114,7 @@
   --utrecht-color-blue-50: hsl(211 60% 50%); /* experimenteel / beperkt gebruiken */
   --utrecht-color-blue-40: hsl(211 60% 40%); /* blauw variant bij hover/focus #3669a5 */
   --utrecht-color-blue-35: hsl(211 60% 35%); /* basis link en knoppen CTA donkerblauw */
-  --utrecht-color-blue-30: hsl(211 60% 30%); /* Deze kleur gebruiken we niet */
+  --utrecht-color-blue-30: hsl(211 60% 30%); /* Deze kleur gebruiken we niet (interaction active) */
   --utrecht-color-blue-20: hsl(211 60% 20%); /* basis donkerblauw (OS focus) */
   --utrecht-color-red-95: hsl(0 100% 95%); /* Achtergrond rode kleur */
   --utrecht-color-red-40: hsl(0 100% 40%); /* basis rood #cc0000 */
@@ -809,8 +809,9 @@
   --utrecht-button-secondary-action-disabled-color: var(--utrecht-color-grey-80);
   --utrecht-button-secondary-action-disabled-border-color: var(--utrecht-color-grey-80);
   --utrecht-button-secondary-action-disabled-background-color: var(--utrecht-color-white);
-  --utrecht-button-secondary-action-active-color: var(--utrecht-color-white);
-  --utrecht-button-secondary-action-active-background-color: var(--utrecht-color-blue-35);
+  --utrecht-button-secondary-action-active-color: var(--utrecht-color-blue-30);
+  --utrecht-button-secondary-action-active-border-color: var(--utrecht-color-blue-30);
+  --utrecht-button-secondary-action-active-background-color: var(--utrecht-color-white);
   --utrecht-button-secondary-action-color: var(--utrecht-color-blue-35);
   --utrecht-button-secondary-action-border-width: var(--utrecht-border-width-md);
   --utrecht-button-secondary-action-border-color: var(--utrecht-color-blue-35);
@@ -844,9 +845,9 @@
   --utrecht-button-primary-action-disabled-color: var(--utrecht-color-grey-80);
   --utrecht-button-primary-action-disabled-border-color: var(--utrecht-color-grey-80);
   --utrecht-button-primary-action-disabled-background-color: var(--utrecht-color-grey-90);
-  --utrecht-button-primary-action-active-color: var(--utrecht-color-blue-35);
-  --utrecht-button-primary-action-active-border-color: var(--utrecht-color-blue-35);
-  --utrecht-button-primary-action-active-background-color: var(--utrecht-color-white);
+  --utrecht-button-primary-action-active-color: var(--utrecht-color-white);
+  --utrecht-button-primary-action-active-border-color: var(--utrecht-color-blue-30);
+  --utrecht-button-primary-action-active-background-color: var(--utrecht-color-blue-30);
   --utrecht-button-primary-action-color: var(--utrecht-color-white);
   --utrecht-button-primary-action-border-width: var(--utrecht-border-width-md); /* Although the border is not visible, it is needed to match the size of the secondary-action-button appearance */
   --utrecht-button-primary-action-background-color: var(--utrecht-color-blue-35);
@@ -1118,7 +1119,7 @@
     --utrecht-color-blue-50: hsl(211 60% 50%); /* experimenteel / beperkt gebruiken */
     --utrecht-color-blue-40: hsl(211 60% 40%); /* blauw variant bij hover/focus #3669a5 */
     --utrecht-color-blue-35: hsl(211 60% 35%); /* basis link en knoppen CTA donkerblauw */
-    --utrecht-color-blue-30: hsl(211 60% 30%); /* Deze kleur gebruiken we niet */
+    --utrecht-color-blue-30: hsl(211 60% 30%); /* Deze kleur gebruiken we niet (interaction active) */
     --utrecht-color-blue-20: hsl(211 60% 20%); /* basis donkerblauw (OS focus) */
     --utrecht-color-red-95: hsl(0 100% 95%); /* Achtergrond rode kleur */
     --utrecht-color-red-40: hsl(0 100% 40%); /* basis rood #cc0000 */
@@ -1815,8 +1816,9 @@
     --utrecht-button-secondary-action-hover-border-color: var(--utrecht-color-blue-60);
     --utrecht-button-secondary-action-disabled-color: var(--utrecht-color-grey-40);
     --utrecht-button-secondary-action-disabled-border-color: var(--utrecht-color-grey-40);
-    --utrecht-button-secondary-action-active-color: var(--utrecht-color-white);
-    --utrecht-button-secondary-action-active-background-color: var(--utrecht-color-blue-35);
+    --utrecht-button-secondary-action-active-color: var(--utrecht-color-blue-30);
+    --utrecht-button-secondary-action-active-border-color: var(--utrecht-color-blue-30);
+    --utrecht-button-secondary-action-active-background-color: var(--utrecht-color-white);
     --utrecht-button-secondary-action-color: var(--utrecht-color-blue-80);
     --utrecht-button-secondary-action-border-width: var(--utrecht-border-width-md);
     --utrecht-button-secondary-action-border-color: var(--utrecht-color-blue-80);
@@ -1849,9 +1851,9 @@
     --utrecht-button-primary-action-disabled-color: var(--utrecht-color-grey-80);
     --utrecht-button-primary-action-disabled-border-color: var(--utrecht-color-grey-80);
     --utrecht-button-primary-action-disabled-background-color: var(--utrecht-color-grey-90);
-    --utrecht-button-primary-action-active-color: var(--utrecht-color-blue-35);
-    --utrecht-button-primary-action-active-border-color: var(--utrecht-color-blue-35);
-    --utrecht-button-primary-action-active-background-color: var(--utrecht-color-white);
+    --utrecht-button-primary-action-active-color: var(--utrecht-color-white);
+    --utrecht-button-primary-action-active-border-color: var(--utrecht-color-blue-30);
+    --utrecht-button-primary-action-active-background-color: var(--utrecht-color-blue-30);
     --utrecht-button-primary-action-color: var(--utrecht-color-grey-15);
     --utrecht-button-primary-action-border-width: var(--utrecht-border-width-md); /* Although the border is not visible, it is needed to match the size of the secondary-action-button appearance */
     --utrecht-button-primary-action-background-color: var(--utrecht-color-blue-80);
