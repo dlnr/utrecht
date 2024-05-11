@@ -10,6 +10,7 @@ import { FormLabel } from './FormLabel';
 export interface FormFieldCheckboxProps extends FormFieldProps {
   // Making `name` required seems like a good nudge towards a working radio button group
   name: string;
+  indeterminate?: boolean;
   invalid?: boolean;
   disabled?: boolean;
   label: ReactNode;
@@ -19,12 +20,15 @@ export interface FormFieldCheckboxProps extends FormFieldProps {
   required?: boolean;
   value?: string | number;
   defaultValue?: string;
+  checked?: boolean;
+  defaultChecked?: boolean;
 }
 
 export const FormFieldCheckbox = forwardRef(
   (
     {
       name,
+      indeterminate,
       invalid,
       disabled,
       label,
@@ -38,6 +42,8 @@ export const FormFieldCheckbox = forwardRef(
       onFocus,
       onBlur,
       defaultValue,
+      defaultChecked,
+      checked,
       children,
       ...props
     }: PropsWithChildren<FormFieldCheckboxProps>,
@@ -49,10 +55,37 @@ export const FormFieldCheckbox = forwardRef(
     const errorMessageId = useId();
 
     return (
-      <FormField invalid={invalid} {...props}>
-        <FormLabel className="utrecht-form-field__label" htmlFor={inputId}>
-          {label}
-        </FormLabel>
+      <FormField invalid={invalid} type="checkbox" {...props}>
+        <div className="utrecht-form-field__label">
+          <FormLabel type="checkbox" htmlFor={inputId}>
+            <Checkbox
+              ref={ref}
+              id={inputId}
+              name={name}
+              className="utrecht-form-field__input"
+              aria-describedby={
+                clsx({
+                  [descriptionId]: description,
+                  [errorMessageId]: invalid,
+                  [statusId]: status,
+                }) || undefined
+              }
+              indeterminate={indeterminate}
+              invalid={invalid}
+              disabled={disabled}
+              aria-required={required}
+              value={value}
+              onFocus={onFocus}
+              onBlur={onBlur}
+              onInput={onInput}
+              onChange={onChange}
+              defaultValue={defaultValue}
+              defaultChecked={defaultChecked}
+              checked={checked}
+            />
+            {label}
+          </FormLabel>
+        </div>
         {description && (
           <FormFieldDescription className="utrecht-form-field__description" id={descriptionId}>
             {description}
@@ -63,28 +96,6 @@ export const FormFieldCheckbox = forwardRef(
             {errorMessage}
           </FormFieldErrorMessage>
         )}
-        <Checkbox
-          ref={ref}
-          id={inputId}
-          name={name}
-          className="utrecht-form-field__input"
-          aria-describedby={
-            clsx({
-              [descriptionId]: description,
-              [errorMessageId]: invalid,
-              [statusId]: status,
-            }) || undefined
-          }
-          invalid={invalid}
-          disabled={disabled}
-          aria-required={required}
-          value={value}
-          onFocus={onFocus}
-          onBlur={onBlur}
-          onInput={onInput}
-          onChange={onChange}
-          defaultValue={defaultValue}
-        />
         {status && (
           <div className="utrecht-form-field__status" id={statusId}>
             {status}
