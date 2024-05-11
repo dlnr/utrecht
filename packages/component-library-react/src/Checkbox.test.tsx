@@ -215,6 +215,24 @@ describe('Checkbox', () => {
     });
   });
 
+  describe('indeterminate state', () => {
+    it('renders a design system BEM modifier class name', () => {
+      const { container } = render(<Checkbox indeterminate />);
+
+      const checkbox = container.querySelector(':only-child');
+
+      expect(checkbox).toHaveClass('utrecht-checkbox--indeterminate');
+    });
+
+    it('has an aria-checked="mixed" attribute', () => {
+      const { container } = render(<Checkbox indeterminate />);
+
+      const checkbox = container.querySelector(':only-child');
+
+      expect(checkbox).toHaveAttribute('aria-checked', 'mixed');
+    });
+  });
+
   it('can be hidden', () => {
     const { container } = render(<Checkbox hidden />);
 
