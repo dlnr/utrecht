@@ -1,0 +1,9 @@
+{
+  "codeConnect": {
+    "include": ["src/**"],
+    "exclude": [],
+    "importPaths": {
+      "*": "@utrecht/component-library-react"
+    }
+  }
+}

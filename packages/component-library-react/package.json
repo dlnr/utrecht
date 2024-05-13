@@ -44,6 +44,7 @@
     "@babel/preset-react": "7.23.3",
     "@babel/preset-typescript": "7.23.3",
     "@babel/runtime": "7.23.6",
+    "@figma/code-connect": "0.1.1",
     "@rollup/plugin-babel": "6.0.4",
     "@rollup/plugin-commonjs": "24.1.0",
     "@rollup/plugin-json": "6.1.0",
