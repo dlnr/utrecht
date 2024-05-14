@@ -7,10 +7,8 @@ figma.connect(
   {
     props: {
       label: figma.string('Label'),
-      // iconend: figma.boolean('Icon end'),
       iconendvalue: figma.instance('↳ Icon end value'),
       iconstartvalue: figma.instance('↳ Icon start value'),
-      // iconstart: figma.boolean('Icon start'),
       appearance: figma.enum('Appearance', {
         'Primary Action': 'primary-action-button',
         'Secondary Action': 'secondary-action-button',
